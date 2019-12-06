@@ -1,5 +1,5 @@
 from datetime import datetime
-import re
+import
 
 def clean_text(text):
     return re.sub('[(\n\t)*]', '', text).strip()
